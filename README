@@ -1,3 +1,10 @@
+This is lua_zlib modified to integrate more easily into NetBSD. Mostly, this
+fork simplifies the build process by removing CMake and Linux/macOS support.
+
+Building this should just be a matter of running `make` on a NetBSD system.
+
+The original README is as follows:
+
 **********************************************************************
 * Author  : Brian Maher <maherb at brimworks dot com>
 * Library : lua_zlib - Lua 5.1 interface to zlib
